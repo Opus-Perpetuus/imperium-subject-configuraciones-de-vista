@@ -12,7 +12,7 @@ export async function seed_demo(ctx: {
   await ctx.data.insert("view_config_preset", {
     id: new_id("view-con"),
     name: "Configuraciones de vista (ejemplo)",
-    description: "Registro semilla del súbdito. Sustituye al migrar desde Mongo.",
+    description: "Registro semilla de la app. Sustituye al migrar desde Mongo.",
     is_active: true,
     ref: "seed-configuraciones-de-vista",
     created_at: ts,

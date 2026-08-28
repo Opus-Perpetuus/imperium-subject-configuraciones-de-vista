@@ -1,6 +1,6 @@
 # SUBJECT-configuraciones-de-vista
 
-Súbdito de primer nivel del menú principal de Imperium (equivalente a un kirlet).
+App de primer nivel del menú principal de Imperium (equivalente a un kirlet).
 
 Los **submenús** viven dentro de este applet, no como repos aparte.
 
