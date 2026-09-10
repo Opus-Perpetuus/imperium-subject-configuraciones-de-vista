@@ -23,13 +23,6 @@
       "label": "Editar Configuraciones de vista"
     }
   ],
-  "pages": [
-    {
-      "id": "configuraciones-de-vista.view-config-preset",
-      "path": "view-config-preset",
-      "permission": "subject.configuraciones-de-vista.view-config-preset.read"
-    }
-  ],
   "menu": [
     {
       "id": "configuraciones-de-vista.root",
@@ -39,18 +32,27 @@
         {
           "id": "configuraciones-de-vista.view-config-preset",
           "label": "Configuraciones de vista",
-          "order": 10,
           "pageId": "configuraciones-de-vista.view-config-preset",
+          "order": 10,
           "path": "view-config-preset",
-          "permission": "subject.configuraciones-de-vista.view-config-preset.read"
+          "permission": "subject.configuraciones-de-vista.view-config-preset.read",
+          "icon": "document"
         }
       ]
     }
   ],
+  "pages": [
+    {
+      "id": "configuraciones-de-vista.view-config-preset",
+      "path": "view-config-preset",
+      "permission": "subject.configuraciones-de-vista.view-config-preset.read"
+    }
+  ],
   "storage": {
-    "domain": "shared-nox-postgres"
+    "domain": "shared-nox-postgres",
+    "files": false
   },
   "resources": {
-    "view-config-preset": "view_config_preset"
+    "view-config-preset": "view-config-preset"
   }
 }
