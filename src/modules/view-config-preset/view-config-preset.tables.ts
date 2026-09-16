@@ -20,6 +20,9 @@ export const view_config_preset_tables: KirletTableDecl[] = [
       { name: "is_template", type: "boolean" },
       { name: "force_locked", type: "boolean" },
       { name: "appearance", type: "json" },
+      { name: "assigned_user_ids", type: "json" },
+      { name: "assigned_user_group_ids", type: "json" },
+      { name: "table_configs", type: "json" },
     ],
     indexes: [
       { name: "idx_view_config_preset_name", columns: ["name"] },
