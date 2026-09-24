@@ -50,7 +50,7 @@ export const view_config_preset_pages: KirletPageDecl[] = [
           form: {
             fields: [
               { name: "name", component: "input-text", label: "Nombre", required: true },
-              { name: "description", component: "input-text", label: "Descripción" },
+              { name: "description", component: "input-textarea", label: "Descripción" },
               { name: "ref", component: "input-text", label: "Referencia (_ref)" },
               { name: "scope", component: "input-text", label: "scope" },
               { name: "is_template", component: "input-checkbox", label: "is template" },
